@@ -41,5 +41,3 @@ def radix_sort(x, base):
     for digit_num in range(steps):
         new_list = merge(split(new_list, base, digit_num))
     return new_list
-
-
