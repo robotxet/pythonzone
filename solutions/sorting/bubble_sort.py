@@ -1,3 +1,9 @@
+"""
+bubble_sort implementaion
+
+average complexity: O(n*n)
+"""
+
 def bubble_sort(x):
     length = len(x)
     for i in range(1, length):
