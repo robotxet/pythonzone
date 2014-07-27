@@ -1,7 +1,5 @@
 """
 bubble_sort implementaion
-
-average complexity: O(n*n)
 """
 
 def bubble_sort(x):

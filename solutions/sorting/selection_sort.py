@@ -1,7 +1,5 @@
 """
 selection sort implementation
-
-average complexity: O(n*n)
 """
 
 def selection_sort(x):
