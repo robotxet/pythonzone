@@ -1,5 +1,6 @@
 """
 Heap sort implementation
+according to Wiki:heapsort
 """
 import math
 
@@ -37,7 +38,3 @@ def heapsort(x):
         x[end], x[0] = x[0], x[end]
         end -= 1
         sift(x, 0, end)
-
-lst = [1, 2, 31, 5, 12, 20, 30, 345, 4, 8]
-heapsort(lst)
-print lst
