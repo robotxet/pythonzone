@@ -13,4 +13,5 @@ tile_height = float(raw_input("Height of tile: "))
 
 total_tile_number = (round(width / tile_width)) * (round(length / tile_height))
 
-print "Total tile cost for %sx%s floor is %s" % (width, length, total_tile_number * cost)
+print "Total tile cost for %sx%s floor is  \
+      %s" % (width, length, total_tile_number * cost)

@@ -4,6 +4,7 @@ Have the program find prime numbers until chooses to stop asking for
 next
 """
 
+
 def is_prime(x):
     if x % 2 == 0:
         return False
@@ -28,5 +29,3 @@ while(ask):
                 number += 1
             print number
         number += 1
-
-

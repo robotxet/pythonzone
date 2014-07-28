@@ -2,6 +2,7 @@
 selection sort implementation
 """
 
+
 def selection_sort(x):
     length = len(x)
     for i in range(0, length - 1):
