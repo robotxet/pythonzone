@@ -4,6 +4,7 @@ Have the user enter a number and find all prime factors (if there any)
 and display them.
 """
 
+
 def is_prime(n):
     if n % 2 == 0:
         return False
@@ -33,8 +34,7 @@ if number % 2 == 0:
 
 for n in range(3, int(number / 2) + 1):
     if number % n == 0:
-        if is_prime(n) == True:
+        if is_prime(n):
             prime_factors.append(n)
 
 print prime_factors
-
