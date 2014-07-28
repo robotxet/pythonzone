@@ -5,6 +5,7 @@ def merge_sort(x):
     middle = len(x) / 2
     return merge(merge_sort(x[:middle]), merge_sort(x[middle:]))
 
+
 def merge(left, right):
     result = []
     i = j = 0

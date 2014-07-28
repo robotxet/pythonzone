@@ -2,11 +2,13 @@
 quick sort implementaion
 """
 
+
 def quick_sort(x, begin, end):
     if begin < end:
         p = partition(x, begin, end)
         quick_sort(x, begin, p)
         quick_sort(x, p + 1, end)
+
 
 def partition(x, begin, end):
     pivot = x[end - 1]
@@ -17,6 +19,7 @@ def partition(x, begin, end):
             x[storeIndex], x[j] = x[j], x[storeIndex]
     x[storeIndex + 1], x[end - 1] = x[end - 1], x[storeIndex + 1]
     return storeIndex + 1
+
 
 def short_quick_sort(x):
     if len(x) <= 1:

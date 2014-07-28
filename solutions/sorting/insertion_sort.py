@@ -2,6 +2,7 @@
 insertion sort implementaion
 """
 
+
 def insertion_sort(x):
     if len(x) < 2:
         return

@@ -2,6 +2,7 @@
 coctail sort implementaion
 """
 
+
 def coctail_sort(x):
     swapped = True
     length = len(x) - 1
