@@ -6,10 +6,10 @@ Keep a limit to how far the program will go.
 
 import math
 
-n = int(raw_input("How many spaces? "))
+n = int(raw_input("How many places? "))
 
 while n > 50:
     print "Number is out of limit"
-    n = int(raw_input("How many spaces? "))
+    n = int(raw_input("How many places? "))
 else:
     print "%.*f" % (n, math.pi)
