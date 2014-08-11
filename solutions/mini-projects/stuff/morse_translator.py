@@ -3,7 +3,7 @@ Morse translator:
 Enter a word and it will spell it in Morse code
 
 International morse code:
-1. lenth of a dot is one unit
+1. length of a dot is one unit
 2. a dash is three units
 3. the space between parts of the same letter is one unit
 4. the space between letters is three units
