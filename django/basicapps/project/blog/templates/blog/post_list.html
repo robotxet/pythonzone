@@ -1,0 +1,9 @@
+WELCOME
+
+<ul>
+{% for post in object_list %}
+    <li>{{ post.published }} - {{ post.title }}</li>
+{% empty %}
+    <li>No articles yet.</li>
+{% endfor %}
+</ul>
